@@ -38,4 +38,22 @@ Data File Creation:
 Create a data file, with the naming convention frequency.dat, for backing up your accumulated data. The frequency.dat file should include every item (represented by a word) paired with the number of times that item appears in the input file.
 
 This output file is created in the beginning of the program without user intervention and is for backup purposes. 
+-------------------------------------------------------------------------------
+Summarize the project and what problem it was solving:
+         This project was to build an item tracking program that analyzes the text records Corner Grocery generates throughout the day and records the amounts each item is purchased so they can create the most effective layout for their customers.
+         
+What did you do particularly well:
+         I did a good job in creating a map of the items and storing them through the use of vectors so we could iterate through them and count how many of each item there was.
+         
+Where could you enhance your code? How would these improvements make your code more efficient, secure, and so on?:
+         I could enhance my code by using less 'ofstream' in each case and instead cut it down to only using it once to store a backup. I could also make better use of the private function and variables by possibly have the backup stored in there.
+         
+Which pieces of the code did you find most challenging to write, and how did you overcome this? What tools or resources are you adding to your support network?:
+         I found it most challenging to write the frequencies to the backup. I had issues with it sometimes storing them and other times not, so I placed the 'ofstream' to write them in each case. I spent a lot of time in the C++ documentation to write the 'for loop' for the 'ofstram' to store the frequencies and i will be keeping that documentation close to hand in the future while writing programs.
+         
+What skills from this project will be particularly transferable to other projects or course work?:
+         Mapping and vectors will be very useful in my future projects and course work.
+         
+How did you make this program maintainable, readable, and adaptable?:
+         I made this program maintainable and readable by using cases for each of the menu options. I find it much easier to read this way. As far as adaptability goes, I believe this program has the ability to be used by multiple industries by changing what the input file is and what exactly needs to be stored or counted.
 
